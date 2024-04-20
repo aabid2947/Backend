@@ -16,7 +16,7 @@ app.use(express.json())
 
 
 // Connecting to mongodb atlas database
-mongoose.connect("mongodb+srv://aabidhussainpas:thor7860@cluster01.k97jqfq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster01")
+mongoose.connect("connection string")
     .then(() => {
         console.log("connected")
         // running the server
